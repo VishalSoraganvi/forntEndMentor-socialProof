@@ -1,0 +1,179 @@
+
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background-image: url(bg-pattern-top-desktop.svg), url(bg-pattern-bottom-desktop.svg);
+  background-repeat: no-repeat,no-repeat;
+  background-position:
+  top left,
+  bottom right;
+      
+  padding:6rem  8rem;
+}
+
+.grid-container{
+  display: grid;
+  row-gap: 4rem;
+  column-gap: 10rem;
+}
+
+.grid-item1{
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  color: rgba(107, 59, 102, 1);
+  width: 25rem;
+  
+}
+.grid-item1>h1{
+  
+  font-size: 3rem;
+  font-weight: bolder;
+  
+}
+
+.grid-item1>h1>span{
+  font-size: 3.5rem;
+}
+
+.grid-item1>p{
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  word-spacing: 0.2rem;
+  color: grey;
+}
+
+.grid-item2 {
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 4;
+  grid-column-end: 7;
+  display: flex;
+  flex-direction: column;
+}
+
+.box1{
+  display: flex;
+  justify-content: start;
+  margin: 0.8rem 1rem;
+}
+.box2{
+  display: flex;
+  justify-content: center;
+  margin:0.8rem 1rem ;
+}
+.box3{
+  display: flex;
+  justify-content: end;
+  margin: 0.8rem 1rem;
+}
+
+
+.rating1{
+  display: flex;
+  width: 25rem;
+  height: 3.2rem;
+  border-radius: 0.3rem;
+  background-color: rgba(252, 245, 245, 1);
+  padding: 1rem 1.5rem;
+}
+
+
+.rating2{
+  display: flex;
+  width: 25rem;
+  height: 3.2rem;
+  border-radius: 0.3rem;
+  background-color: rgba(252, 245, 245, 1);
+  padding: 1rem 1.5rem;
+}
+.rating3{
+  display: flex;
+  width: 25rem;
+  height: 3.2rem;
+  border-radius: 0.3rem;
+  background-color: rgba(252, 245, 245, 1);
+  padding: 1rem 1.5rem;
+}
+
+
+.stars{
+  margin-right: 2rem;
+}
+.stars>img{
+  margin: 0 3px;
+  width: 1rem;
+}
+
+.comment{
+  color: rgba(107, 59, 102, 1);
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.grid-item3 {
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 7;
+  display: flex;
+  height: 15rem;
+  justify-content: space-between;
+}
+
+
+.container1{
+  display: flex;
+  align-items: start;
+  
+}
+.container2{
+  display: flex;
+  align-items: center;
+}
+.container3{
+  display: flex;
+  align-items: end;
+}
+
+.reviewBox{
+  height: 13rem;
+  background-color: rgba(74, 21, 72, 0.92);
+  border-radius: 0.5rem;
+  padding: 2.5rem 2rem;
+  margin: 0 1.2rem;
+}
+
+.header{
+  display: flex;
+  margin-bottom: 1.6rem;
+}
+
+.header > img{
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  
+}
+
+.name{
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.role{
+  color: rgba(230, 32, 115, 0.6);
+  font-weight: 300;
+  font-size: 0.9rem;
+}
+.title{
+  margin:0 2.5rem ;
+}
+
+.footer{
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.9);
+}
